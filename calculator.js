@@ -1,13 +1,19 @@
-let operator = prompt("operator:  "),
-    number1 = prompt("number1:  "),
-    number2 = prompt("number2:  ");
+let firstNumber = prompt("Enter first number:   "),
+    operator = prompt("operator:  "),
+    secondNumber = prompt("Enter second number:  ");
 
-    if(operator === "+") {
-        console.log(number1 + number2)
-    } else if (operator ==="-") {
-        console.log(number1 - number2)
-    } else if(operator ==="*") {
-        console.log(number1 * number2)
-    } else if(operator ==="/") {
-        console.log(number1 / number2)
+    if(operator ==="+") {
+        alert(firstNumber + secondNumber);
+    } 
+    
+    else if (operator ==="-") {
+        alert(firstNumber - secondNumber);
+    } 
+    
+    else if(operator ==="*") {
+        alert(firstNumber * secondNumber);
+    } 
+    
+     else if(operator ==="/") {
+        alert(firstNumber / secondNumber);
     }
